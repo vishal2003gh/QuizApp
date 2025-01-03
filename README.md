@@ -59,7 +59,7 @@ A dynamic and interactive Quiz Application built using **Java** with a PostgreSQ
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/quiz-application.git
+   git clone https://github.com/vishal200gh/quiz-application.git
    cd quiz-application
    ```
 
@@ -70,12 +70,8 @@ A dynamic and interactive Quiz Application built using **Java** with a PostgreSQ
 3. **Configure Database Credentials**
    - Update the database connection details in `DatabaseConnection.java`:
      ```java
-     String url = "jdbc:postgresql://localhost:5432/quizapp";
-     String user = "yourUsername";
-     String password = "yourPassword";
-     ```
-
-4. **Compile and Run**
+    
+   4. **Compile and Run**
    - Compile the Java files:
      ```bash
      javac -cp .:postgresql-42.6.0.jar *.java
